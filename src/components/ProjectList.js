@@ -6,7 +6,11 @@ function ProjectList({ projects }) {
   return (
     <div id="projects">
       <h2>My Projects</h2>
-      <div id="project-list">{/* render ProjectItem components here */}</div>
+      <div id="project-list">
+      <ProjectItem key={1}/>
+      <ProjectItem key={2}/>
+      <ProjectItem key={3}/>
+      </div>
     </div>
   );
 }
